@@ -1,0 +1,84 @@
+#plan {
+    background-color: #F9F9FB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #141135;
+        text-align: center;
+    }
+    .row {
+        margin-top: 64px;
+        
+        .part {
+            width: 370px;
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            padding-bottom: 40px;
+            transition: .4s;
+            padding: 60px 0;
+            box-shadow: 0 30px 60px rgba(162, 169, 192, .15);
+            &:hover {
+                
+                background: #6B62C5;
+
+                h4 {
+                    color: #FAFAFE;
+                }
+
+                p {
+                    color: #E6E5F3;
+                }
+            }
+
+            h4 {
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 36px;
+                color: #141135;
+            }
+
+            h3 {
+                font-family: "Nunito", serif;
+                font-size: 48px;
+                font-weight: 800;
+                line-height: 50px;
+                text-align: center;
+                margin-top: 20px;
+                color: #1BBF00;
+                sup {
+                    font-family: "Quicksand", serif;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 25px;
+                    text-align: center;
+
+                }
+            }
+
+            p {
+                width: 252px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #726E9E;
+                font-family: "Paprika", serif;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+        #active{
+            background: #6B62C5;
+            h4 {
+                color: #FAFAFE;
+            }
+
+            p {
+                color: #E6E5F3;
+            }
+        }
+    }
+}

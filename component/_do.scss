@@ -1,0 +1,91 @@
+#do{
+    background: #F6F5FF;
+    
+    .container{
+        .row{
+            padding: 100px 0;
+            .item{
+                h2{
+                    font-size: 48px;
+                    font-weight: 700;
+                    color: #141135;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #6C7D93;
+                }
+                button{
+                    @include button();
+                }
+            }
+            .cart{
+                -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+                -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+                box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+                border-radius: 20px;
+                text-align: center;
+                padding: 48px 0;
+                background: #FFFFFF;
+                transition: .4s;
+                h3{
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    color: #141135;
+                    margin-top: 32px;
+                }
+                p{
+                    font-family: "Paprika", serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #726E9E;
+                    width: 257px;
+                    margin: 16px auto 20px auto;
+                }
+                .short{
+                    line-height: 28px;
+                    margin: 0 auto 5px auto;
+                    width: 278px;
+                }
+                a{
+                    @include a();
+                    &:hover{
+                        background: transparent;
+                    }
+                }
+                &:hover{
+                    background: #6B62C5;
+                    h3{
+                        color: #FAFAFE;
+                    }
+                    p{
+                        color: #E6E5F3;
+                    }
+                    a{
+                        color: #F4F4F5;
+                        &::after{
+                            background: rgba(255, 255, 255, .3);
+                        }
+                    }
+                } 
+            }
+            #active{
+                background: #6B62C5;
+                h3{
+                    color: #FAFAFE;
+                }
+                p{
+                    color: #E6E5F3;
+                }
+                a{
+                    color: #F4F4F5;
+                    &::after{
+                        background: rgba(255, 255, 255, .3);
+                    }
+                }
+            }
+        }
+    }
+}

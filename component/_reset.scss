@@ -1,0 +1,50 @@
+.container {
+    max-width: 1170px;
+}
+
+$primary: rgba(22, 12, 109, .5);
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+@mixin button ($theme: #1BBF00) {
+    background: $theme;
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 14px 28px;
+    border: 1px solid $theme;
+    line-height: 200%;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+@mixin a ($read: #F9F9FB) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #141135;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 27px;
+        height: 40px;
+        position: absolute;
+        background: #1bbf004d;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -12px;
+        border-radius: 0 100px 100px 0;
+    }
+}

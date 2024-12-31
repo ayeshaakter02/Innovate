@@ -1,0 +1,90 @@
+#about {
+    background: #F8F8FF;
+    padding: 100px 0;
+    position: relative;
+
+    .container {
+        position: relative;
+        h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #141135;
+            text-align: center;
+        }
+        .content {
+            text-align: center;
+            background: #FFFFFF;
+            border-radius: 12px;
+            position: relative;
+            margin-top: 152px;
+                .image_part {
+                    margin-top: -73px;
+                    transform: translate(-50%);
+                    position: absolute;
+                    left: 50%;
+                    .star {
+                        color: #FF7628;
+                        margin-left: 10px;
+                    }
+                }
+
+            p {
+                font-family: "Paprika", serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 40px;
+                color: #726E9E;
+                width: 800px;
+                margin: 0 auto;
+                padding-top: 168px;
+            }
+
+            h3 {
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #221A2C;
+                margin-top: 15px;
+                margin-bottom: 4px;
+            }
+
+            h4 {
+                font-family: "Paprika", serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 25px;
+                color: #726E9E;
+                padding-bottom: 56px;
+            }
+        }
+        .previousbutton{
+            margin-left: -300px;
+            margin-top: 150px;
+            background-color: #1BBF00;
+            height: 64px;
+            width: 64px;
+            border-radius: 50%;
+            position: absolute;
+            .leftarrow{
+                padding-top: 16px;
+                scale: 2;
+                color: #FFFFFF;
+            }
+        }
+        .nextbutton{
+            margin-right: -300px;
+            margin-top: 150px;
+            background-color: #1BBF00;
+            height: 64px;
+            width: 64px;
+            border-radius: 50%;
+            position: absolute;
+            .rightarrow{
+                padding-top: 16px;
+                scale: 2;
+                color: #FFFFFF;
+            }
+        }
+        
+    }
+}

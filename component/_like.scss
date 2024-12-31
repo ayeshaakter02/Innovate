@@ -1,0 +1,66 @@
+#like {
+    color: #F9F9FB;
+    padding: 100px 0;
+    position: relative;
+    z-index: -2;
+
+    .container {
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 65px;
+            letter-spacing: -2px;
+            color: #030314;
+        }
+
+        .right {
+
+            ul {
+                .active {
+                    color: #1BBF00;
+                }
+
+                li {
+                    font-family: "Quicksand", serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 25px;
+                    color: #726E9E;
+                    transition: .4s;
+                    &:hover{
+                        color: #1BBF00;
+                    }
+                }
+                
+            }
+
+            .first {
+                width: 504px;
+            }
+
+            h3 {
+                margin: 16px 0;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 55px;
+                letter-spacing: -1.5px;
+                color: #141135;
+                width: 523px;
+            }
+
+            a {
+                margin-bottom: 13px;
+                @include a();
+            }
+
+        }
+    }
+
+    .shape {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
