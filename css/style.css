@@ -112,16 +112,16 @@ header nav button {
 #fun-fact {
   position: relative;
   background: #F9F9FB;
-  z-index: -2;
 }
 #fun-fact img {
   position: absolute;
   right: 0;
-  z-index: -1;
+  
 }
 #fun-fact .container .row {
   padding: 282px 0;
   margin: 0 -40px;
+  position: relative;
 }
 #fun-fact .container .row #item {
   position: relative;
@@ -402,7 +402,6 @@ header nav button {
   margin-top: 64px;
 }
 #plan .row .part {
-  width: 370px;
   background-color: #FFFFFF;
   border-radius: 20px;
   padding-bottom: 40px;
@@ -522,7 +521,7 @@ header nav button {
 }
 #about .container .previousbutton {
   margin-left: -300px;
-  margin-top: 150px;
+  margin-top: 0;
   background-color: #1BBF00;
   height: 64px;
   width: 64px;
@@ -536,7 +535,7 @@ header nav button {
 }
 #about .container .nextbutton {
   margin-right: -300px;
-  margin-top: 150px;
+  margin-top: 0;
   background-color: #1BBF00;
   height: 64px;
   width: 64px;
@@ -553,7 +552,6 @@ header nav button {
   color: #F9F9FB;
   padding: 100px 0;
   position: relative;
-  z-index: -2;
 }
 #like .container h2 {
   font-size: 50px;

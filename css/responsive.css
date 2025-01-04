@@ -72,11 +72,11 @@
 
     #fun-fact .container .row {
         padding: 45px 0;
-        margin: 0;
+        text-align: center;
     }
 
     #fun-fact .container .row h2 {
-        padding-left: 30px;
+        padding-left: 16px;
         font-size: 32px;
         font-weight: 700;
         line-height: 25px;
@@ -90,8 +90,7 @@
     }
 
     #fun-fact .container .row #item::before {
-        height: 50px;
-        right: 110px;
+        display: none;
     }
 
     /*-----fun-fact end-----*/
@@ -202,6 +201,7 @@
     #impact {
         padding: 40px 0;
     }
+
     #impact .container h2 {
         font-size: 32px;
     }
@@ -211,11 +211,6 @@
         line-height: 22px;
         width: auto;
         margin: 15px auto 30px auto;
-    }
-
-    #impact .container .row #left img {
-        width: 32px;
-        height: 32px;
     }
 
     #impact .container .row #left h3 {
@@ -228,15 +223,483 @@
         line-height: 22px;
         width: auto;
     }
+
     #impact .container .row #left .text p {
         width: auto;
     }
+
     #impact .container .row .right {
-       width: 330px;
-       margin-top: 0;
+        width: 100%;
+        margin-top: 0;
     }
+
     #impact .shape {
         width: 150px;
     }
+
     /*-----impact end-----*/
+    /*-----plan start-----*/
+    #plan {
+        padding: 40px 0;
+    }
+
+    #plan h2 {
+        font-size: 32px;
+    }
+
+    #plan .row {
+        margin-top: 25px;
+    }
+
+    #plan .row .part {
+        padding: 25px 0;
+    }
+
+    #plan .row .part h4 {
+        padding: 14px 0;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    #plan .row .part h3 {
+        font-size: 36px;
+        margin-top: 16px;
+    }
+
+    #plan .row .part p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    /*-----plan end-----*/
+    /*-----about stat-----*/
+    #about {
+        padding: 30px 0;
+    }
+
+    #about .container h2 {
+        font-size: 32px;
+    }
+
+    #about .container .content {
+        margin-top: 100px;
+    }
+
+    #about .container .content p {
+        font-size: 16px;
+        line-height: 31px;
+        width: auto;
+        padding-top: 130px;
+    }
+
+    #about .container .content h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #about .container .content h4 {
+        font-size: 14px;
+        padding-bottom: 32px;
+    }
+
+    #about .container .previousbutton {
+        margin-left: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 40px;
+        width: 40px;
+    }
+
+    #about .container .previousbutton .leftarrow {
+        padding-top: 13px;
+        scale: 1;
+    }
+
+    #about .container .nextbutton {
+        margin-right: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 40px;
+        width: 40px;
+    }
+
+    #about .container .nextbutton .rightarrow {
+        padding-top: 13px;
+        scale: 1;
+    }
+
+    /*-----about end-----*/
+    /*-----like start-----*/
+    #like {
+        padding: 40px 0;
+    }
+
+    #like .container h2 {
+        font-size: 32px;
+    }
+
+    #like .container .right ul li {
+        font-size: 14px;
+    }
+
+    #like .container .right .first {
+        width: auto;
+    }
+
+    #like .container .right h3 {
+        margin: 10px 0;
+        font-size: 22px;
+        line-height: 30px;
+        width: auto;
+    }
+
+    #like .container .right a {
+        font-size: 16px;
+    }
+
+    #like .container .right a::after {
+        width: 22px;
+        height: 30px;
+    }
+
+    #like .shape {
+        width: 150px;
+    }
+
+    /*-----like end-----*/
+    /*-----footer start-----*/
+    footer .container {
+        margin-left: 5px;
+        padding: 40px 0 18px 0;
+    }
+
+    footer .container .row .line1 p {
+        width: auto;
+        font-size: 16px;
+        line-height: 150%;
+        margin-top: 28px;
+    }
+
+    footer .container .row .line h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    footer .container .row .line li {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    footer .footer_wrapper {
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 18px;
+    }
+
+    /*-----footer end-----*/
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    /*-----navbar start-----*/
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    header nav ul {
+        gap: 15px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    header nav button {
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    header nav button i {
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .navbar-toggler {
+        color: rgba(255, 246, 246, 0.65);
+        border: var(--bs-border-width) solid rgba(255, 255, 255, 0.15);
+        /*-----navbar end------*/
+    }
+
+    /*-----banner start-----*/
+    #banner .overlay {
+        padding: 150px 0 50px 0;
+    }
+
+    #banner .shape1 {
+        top: 110px;
+    }
+
+    #banner .shape2 {
+        width: 150px;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    #banner .overlay .container h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    #banner .overlay .container p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+        margin: 18px auto;
+    }
+
+    #banner .overlay .container button {
+        position: relative;
+        border-radius: 100px;
+        padding: 8px 16px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    /*-----banner end-----*/
+    /*-----fun-fact start-----*/
+    #fun-fact img {
+        width: 200px;
+    }
+
+    #fun-fact .container .row {
+        padding: 70px 0;
+        text-align: center;
+
+    }
+
+    #fun-fact .container .row h2 {
+        margin-top: 30px;
+        padding-left: 16px;
+        font-size: 45px;
+        line-height: 25px;
+    }
+
+    #fun-fact .container .row p {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    #fun-fact .container .row #item::before {
+        margin-top: 30px;
+        height: 50px;
+    }
+
+    #fun-fact .container .row .count::before {
+        display: none;
+    }
+
+    /*-----fun-fact end-----*/
+    /*-----choose start-----*/
+    #choose .row .item p {
+        width: auto;
+    }
+
+    #choose .row .right_part p {
+        width: auto;
+    }
+
+    /*-----choose end-----*/
+    /*-----do start-----*/
+    #do .container .row .cart {
+        margin-top: 15px;
+    }
+
+    #do .container .row .cart p {
+        width: auto;
+    }
+
+    #do .container .row .cart .short {
+        width: auto;
+        margin: 20px auto;
+    }
+
+    /*-----do end-----*/
+    /*-----impact start-----*/
+    #impact {
+        padding: 40px 0;
+    }
+
+    #impact .container p {
+        width: auto;
+    }
+
+    #impact .container .row #left p {
+        width: auto;
+    }
+
+    #impact .container .row #left .text p {
+        width: auto;
+    }
+
+    #impact .container .row .right {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #impact .shape {
+        width: 300px;
+    }
+
+    /*-----impact end-----*/
+    /*-----plan start-----*/
+    #plan {
+        padding: 60px 0;
+    }
+
+    #plan .row .part p {
+        width: auto;
+    }
+
+    /*-----plan end-----*/
+    /*-----about stat-----*/
+    #about {
+        padding: 60px 0;
+    }
+
+    #about .container .content p {
+        width: auto;
+    }
+
+    #about .container .previousbutton {
+        margin-left: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+        width: 60px;
+    }
+
+    #about .container .nextbutton {
+        margin-right: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+        width: 60px;
+    }
+
+    /*-----about end-----*/
+    /*-----like start-----*/
+    #like {
+        padding: 60px 0;
+    }
+
+    #like .container h2 {
+        margin-bottom: 20px;
+    }
+
+    #like .container .right .first {
+        width: auto;
+    }
+
+    #like .container .right h3 {
+        width: auto;
+    }
+
+    #like .container .right ul li {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    #like .container .right a {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    #like .shape {
+        width: 300px;
+    }
+
+    /*-----like end-----*/
+    /*-----footer start-----*/
+    footer .container {
+        margin-left: 5px;
+        padding: 60px 0 18px 0;
+    }
+
+    /*-----footer end-----*/
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    /*-----fun-fact start-----*/
+
+    #fun-fact .container .row {
+        margin: 0;
+        text-align: center;
+        padding: 150px 0;
+    }
+
+    #fun-fact .container .row h2 {
+        margin-top: 30px;
+        padding-left: 16px;
+        font-size: 45px;
+        line-height: 25px;
+    }
+
+    #fun-fact .container .row #item::before {
+        right: 0;
+    }
+
+    #fun-fact img {
+        width: 250px;
+    }
+
+    /*-----fun-fact end-----*/
+    /*-----impact start-----*/
+    #impact .container p {
+        width: auto;
+    }
+
+    #impact .container .row #left p {
+        width: auto;
+    }
+
+    #impact .container .row #left .text p {
+        width: auto;
+    }
+
+    #impact .container .row .right {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #impact .shape {
+        width: 300px;
+    }
+
+    /*-----impact end-----*/
+    /*-----about stat-----*/
+    #about .container .previousbutton {
+        margin-left: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+        width: 60px;
+    }
+
+    #about .container .nextbutton {
+        margin-right: 0;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        height: 60px;
+        width: 60px;
+    }
+
+    /*-----about end-----*/
+    /*-----footer start-----*/
+    footer .container {
+        padding: 135px 10px 55px 10px;
+    }
+
+    /*-----footer end-----*/
 }
