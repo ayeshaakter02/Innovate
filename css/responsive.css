@@ -71,10 +71,10 @@
     }
 
     #fun-fact .container .row {
-        padding: 45px 0;
+        padding: 40px 0;
+        margin: 0 40px;
         text-align: center;
     }
-
     #fun-fact .container .row h2 {
         padding-left: 16px;
         font-size: 32px;
@@ -475,9 +475,9 @@
     #fun-fact img {
         width: 200px;
     }
-
     #fun-fact .container .row {
         padding: 70px 0;
+        margin: 0 40px;
         text-align: center;
 
     }
@@ -637,7 +637,7 @@
     /*-----fun-fact start-----*/
 
     #fun-fact .container .row {
-        margin: 0;
+        margin: 0 40px;
         text-align: center;
         padding: 150px 0;
     }
